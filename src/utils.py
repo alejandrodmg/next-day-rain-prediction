@@ -299,7 +299,7 @@ def hyperparameter_tuning(X, y, model, hyperpar_grid, sampling_method, folds=5, 
     # Create an imbalanced learn pipeline with the sampling technique and the model.
     pipeline = Pipeline([('sampling', sampling), ('model', model)])
     # Initiate the search.
-    clf = GridSearchCV(pipeline, hyperpar_grid, cv=folds, verbose=3,
+    clf = GridSearchCV(pipeline, hyperpar_grid, cv=folds, verbose=0,
                        scoring=optimize, n_jobs=-1, refit=refit_model)
     clf.fit(X, y)
     # Return the best found parameters and the associated highest score.
