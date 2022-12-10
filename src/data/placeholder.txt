@@ -1,0 +1,2 @@
+Download the rain in Australia dataset from Kaggle and place it here. 
+Link: https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package
