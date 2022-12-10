@@ -1,4 +1,6 @@
-Next-day Rain Prediction
+# Next-day Rain Prediction
+
+Files in the repository:
 
 - `src/analysis.ipynb`: Main file that follows a logical order of the pre-processing techniques and models outlined in the report.
 
